@@ -21,6 +21,11 @@ In this project, we use the EPOS4 controller and DXL motor provided by Maxon Mot
 - Development Environment: Visual Studio
 - Libraries: Definitions.h, EposCmd64.dll, EposCmd64.lib (provided by Maxon Motor)
 - Protocol: CAN
+- Hardware:
+  - CAN Interface: CAN HS/FD Interface NI-XNET USB-8502
+  - EPOS4 Controller: EPOS4 Compact 50/15 CAN, Digital Position Controller, 15 A, 10 - 50 VDC (Product No. 520886)
+  - DXL Motor: DCX32L GB KL 48V
+
 
 ## Project Structure
 
