@@ -4,12 +4,13 @@ This project provides C++ code to control a motor's position and velocity using 
 
 ## Table of Contents
 
-- [Project Title](#CAN-Protocol-based-EPOS4-Controller-and-DXL-Motor-Control)
+- [Project Title](#user-friendly-library-for-epos4-controller-and-dxl-motor-control)
 - [Table of Contents](#table-of-contents)
 - [Project Overview](#project-overview)
 - [Technology Stack](#technology-stack)
 - [Project Structure](#project-structure)
 - [Installation and Execution](#installation-and-execution)
+- [Reference Documents](#reference-documents)
 
 ## Project Overview
 
@@ -49,12 +50,23 @@ The project structure only shows the main source files. Files such as .sln, .vcx
 
 ## Installation and Execution
 
-1. Install Visual Studio.
+1. **(Windows Only)** Install Visual Studio.
 2. Clone or download this repository.
 3. Download the required Maxon Motor libraries [from here](https://www.maxongroup.co.kr/medias/sys_master/root/8994700197918/EPOS-Windows-DLL-En.zip).
 4. Extract the downloaded libraries and add them to the project properties in Visual Studio. (Definitions.h, EposCmd64.dll, EposCmd64.lib)
 5. Connect your computer, CAN Interface, EPOS4 controller, and DXL motor.
 6. Build and run the project in Visual Studio.
+
+## Reference Documents
+
+For more information and to access the following reference documents, please visit the [Maxon Motor website](https://www.maxongroup.co.kr/maxon/view/product/control/Positionierung/520886):
+
+1. EPOS Command Library Documentation
+2. EPOS4 Communication Guide
+3. EPOS4 Module-Compact 50/15 Hardware Reference
+4. EPOS4 Application Notes Collection
+5. EPOS Linux Library
+
 
 ## License
 
