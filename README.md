@@ -43,3 +43,8 @@ The project structure only shows the main source files. Files such as .sln, .vcx
 4. Connect your computer, CAN Interface, EPOS4 controller, and DXL motor.
 5. Build and run the project in Visual Studio.
 
+## License
+
+The project is licensed under the MIT License.
+
+This project is distributed under the MIT License. For more information, please see the [LICENSE](LICENSE) file.
